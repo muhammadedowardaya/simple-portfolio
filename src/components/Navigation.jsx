@@ -11,7 +11,7 @@ export default function Navigation() {
 	};
 
 	return (
-		<nav className="navigation mt-8">
+		<nav className="navigation mt-8 pt-8">
 			<ul className="flex gap-8 justify-center border-b pb-2">
 				<li>
 					<Link to="/" className={`hover:border-b-2 py-2 ${currentPath('/')}`}>
