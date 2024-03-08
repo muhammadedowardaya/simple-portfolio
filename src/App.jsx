@@ -6,8 +6,8 @@ import Profile from './components/Profile';
 
 function App() {
 	return (
-		<div className="select-none w-full max-w-[800px] mx-auto">
-			<header className="sm:px-6">
+		<div className="w-full max-w-[800px] mx-auto">
+			<header className="px-2 sm:px-6 overflow-hidden">
 				<Profile />
 				<SkillTags />
 			</header>

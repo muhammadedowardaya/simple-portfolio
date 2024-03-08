@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 export default function ListItem({ name, description }) {
 	return (
-		<li>
-			<div className="name font-semibold">{name}</div>
-			{description && <div className="description">{description}</div>}
+		<li className="text-sm">
+			<div className="name font-semibold ">{name}</div>
+			{description && <div className="description ">{description}</div>}
 		</li>
 	);
 }
