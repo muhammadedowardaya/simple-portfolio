@@ -5,7 +5,7 @@ import About from '../pages/About';
 
 export default function Content() {
 	return (
-		<section id="content" className="p-8">
+		<section id="content" className="p-8 overflow-x-hidden">
 			<Routes>
 				<Route path="/" element={<Work />} />
 				<Route path="/resume" element={<Resume />} />
